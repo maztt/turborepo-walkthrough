@@ -1,0 +1,18 @@
+{
+  "name": "@repo/hello-worlder",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "exports": {
+    "./hello-worlder": {
+      "types": "./src/hello-worlder.ts",
+      "default": "./dist/hello-worlder.js"
+    }
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "latest"
+  }
+}
