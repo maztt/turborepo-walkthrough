@@ -1,0 +1,1 @@
+export const helloWorlder = (): string => "Hello World";
